@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import "./Profile.css"
 
 export default function Profile({
     username,
@@ -14,7 +15,7 @@ export default function Profile({
       <img
         src={avatar}
         alt={username}
-        className="avatar"
+        className="profile__avatar"
       />
       <p className="name">{username}</p>
       <p className="tag">@{tag}</p>
@@ -23,16 +24,16 @@ export default function Profile({
   
     <ul className="stats">
       <li>
-        <span className="label">Followers</span>
-        <span className="quantity">{stats.followers}</span>
+        <span className="stats__label">Followers</span>
+        <span className="stats__quantity">{stats.followers}</span>
       </li>
       <li>
-        <span className="label">Views</span>
-        <span className="quantity">{stats.views}</span>
+        <span className="stats__label">Views</span>
+        <span className="stats__quantity">{stats.views}</span>
       </li>
       <li>
-        <span className="label">Likes</span>
-        <span className="quantity">{stats.likes}</span>
+        <span className="stats__label">Likes</span>
+        <span className="stats__quantity">{stats.likes}</span>
       </li>
     </ul>
   </div>

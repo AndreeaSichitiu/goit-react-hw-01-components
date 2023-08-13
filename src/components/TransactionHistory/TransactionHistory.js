@@ -2,6 +2,8 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
+import "./TransactionHistory.css"
+
 export default function TransactionHistory({ items }) {
   return (
     <table className="transaction-history">
@@ -17,7 +19,7 @@ export default function TransactionHistory({ items }) {
           return (
             <tr key={id}>
               <td>{type}</td>
-              <td>{amount}</td>
+              <td className='amount'>{amount}</td>
               <td>{currency}</td>
             </tr>
           );
