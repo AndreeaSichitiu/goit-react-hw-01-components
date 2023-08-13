@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AndreeaSichitiu/goit-react-hw-01-components.git/static/css/main.1739492c.css",
+    "main.js": "/AndreeaSichitiu/goit-react-hw-01-components.git/static/js/main.e7ac7ae4.js",
+    "index.html": "/AndreeaSichitiu/goit-react-hw-01-components.git/index.html",
+    "main.1739492c.css.map": "/AndreeaSichitiu/goit-react-hw-01-components.git/static/css/main.1739492c.css.map",
+    "main.e7ac7ae4.js.map": "/AndreeaSichitiu/goit-react-hw-01-components.git/static/js/main.e7ac7ae4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1739492c.css",
+    "static/js/main.e7ac7ae4.js"
+  ]
+}
